@@ -369,7 +369,6 @@
             <a class="logo footer-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
         <p class="p-footer">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
 </div>
-
 <div> 
         <p class="p-footer-media"> Social media</p>
 <ul class="social-list-footer">
@@ -403,11 +402,84 @@
     </li>
 </ul>
 </div>
-
-
-
     </div>
     </footer>
+
+            <!--Modal window-->
+
+<div class="backdrop is-open">
+    <div class="modal">
+<button class="modal-close-btn" type="button">
+    <svg class="modal-close-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-close"></use>
+    </svg>
+</button>
+
+<p class="modal-slogan">
+    Leave your contacts and we will call you back
+</p>
+
+<form class="review-form">
+
+<div class="review-form-field-wrapper">
+    <label class="review-form-field-label" for="user-name" >Name</label>
+
+    <div class="review-form-input-wrapper">
+<input class="review-form-input" type="text" id="user-name" name="user-name" required />
+<svg class="review-form-input-icon" width="18" height="18">
+    <use href="/images/icons.svg#icon-person"></use>
+</svg>
+    </div>
+
+</div>
+
+<div class="review-form-field-wrapper">
+    <label class="review-form-field-label" for="user-phone">Phone</label>
+<div class="review-form-input-wrapper"> 
+<input class="review-form-input" type="tel" id="user-phone" name="user-phone"/>
+<svg class="review-form-input-icon" width="18" height="18">
+    <use href="/images/icons.svg#icon-phone"></use>
+</svg>
+</div>
+
+</div>
+
+<div class="review-form-field-wrapper">
+    <label class="review-form-field-label" for="user-email">Email</label>
+    <div class="review-form-input-wrapper">
+    <input class="review-form-input" type="email" id="user-email" name="user-email"/>
+    <svg class="review-form-input-icon" width="18" height="18">
+        <use href="/images/icons.svg#icon-email"></use>
+    </svg>
+    </div>
+</div>
+
+<div class="review-form-field-wrapper">
+    <label class="review-form-field-label" for="user-comment">Comment</label>
+<textarea class="review-form-comment" name="user-comment" id="user-comment" placeholder="Text input" required></textarea>
+</div>
+
+<div class="review-form-checkbox-wrapper">
+    <input class="review-form-checkbox visually-hidden" type="checkbox" id="privacy-policy" name="privacy-policy" value="true" required/>
+    <label class="review-form-checkbox-label" for="privacy-policy">
+        <span class="review-form-custom-checkbox">
+            <svg class="review-form-checkbox-icon" width="10" height="8">
+            <use href="./images/icons.svg#icon-vector"></use>
+            </svg>
+        </span>
+        I accept the terms and conditions of the <a class="review-form-policy-link accent-color " href="">Privacy Policy</a> 
+    </label>
+</div>
+
+
+<button class="review-form-submit-btn" type="submit">Send</button>
+
+</form>
+
+    </div>
+</div>
+
+
 
 </body>
 
