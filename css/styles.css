@@ -453,6 +453,80 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .social-list-link-footer:focus{
     background-color: #31d0aa;
 }
+
+
+
+
+/*мeіл та підписка*/
+.feedback {
+    margin-left: 80px;
+}
+.subscriber {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.pole {
+    display: flex;
+    gap: 24px;
+}
+
+.E-mail::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.label-input-footer {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: #ffffff;
+}
+
+.send-button {
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+
+    min-width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    border: none;
+}
+
+.send-icon {
+    fill: #fff;
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+}
+
+
+
 /*modal window*/
 .backdrop {
     position: fixed;
